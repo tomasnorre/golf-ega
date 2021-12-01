@@ -1,0 +1,24 @@
+{
+    "name": "seventhgreen/golf-ega",
+    "description": "Library for EGA Convertions",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SeventhGreen\\GolfEga\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SeventhGreen\\GolfEga\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomas Norre Mikkelsen",
+            "email": "tomasnorre@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
